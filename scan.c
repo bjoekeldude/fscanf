@@ -17,7 +17,7 @@ typedef struct person_t{
 int main(int argc, char* argv[]){
 	person_t database[DB_SIZE];
 	int option;
-	char filename[80];
+	
 	FILE *filepointer = NULL;
 	while((option = getopt(argc, argv, "hvf:"))!=-1)
 	switch(option)
