@@ -7,7 +7,7 @@ const char VERSIONSNR[] = "0.1";
 
 const int DB_SIZE = 20;
 
-typedef struct person_t{
+typedef struct{
 	int personalnummer;
 	char nachname[20];
 	char vorname[20];
